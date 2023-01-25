@@ -4,5 +4,3 @@ EXPOSE 80
 COPY . /app
 RUN chmod +x /app/start.sh
 CMD ["/app/start.sh"]
-sudo apt install openjdk-17-jre
-
